@@ -1,0 +1,95 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container for the whole section */
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+/* Individual Section Styling */
+.section {
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid #ddd; /* Border around the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect for Sections */
+.section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Circle styling */
+.circle {
+    width: 80px;
+    height: 80px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+    font-size: 30px;
+    transition: background-color 0.3s ease;
+}
+
+/* Section Title Styling */
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Section Paragraph Styling */
+p {
+    font-size: 0.95em;
+    color: #666;
+}
+
+/* Motto Section */
+.motto {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4CAF50;
+    border-top: 3px solid #4CAF50;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+/* Hover Effect for Icons */
+.circle:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+/* Box Shadows for Sections */
+.section {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section:hover {
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.2);
+}
